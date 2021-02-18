@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c3a7bc3-36df-4691-9ece-b670122fdbad" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect.py" afterDir="false" />
-    </list>
+    <list default="true" id="3c3a7bc3-36df-4691-9ece-b670122fdbad" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,34 +86,46 @@
       <option name="presentableId" value="Default" />
       <updated>1613473044178</updated>
       <workItem from="1613473046950" duration="4562000" />
-      <workItem from="1613638608176" duration="1073000" />
+      <workItem from="1613638608176" duration="1137000" />
     </task>
+    <task id="LOCAL-00001" summary="增加未搜索后的返回信息">
+      <created>1613641463872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613641463872</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加未搜索后的返回信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加未搜索后的返回信息" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="31" key="CommitChangelistDialog2" timestamp="1613641463622">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state x="324" y="31" key="CommitChangelistDialog2/0.25.1440.816@0.25.1440.816" timestamp="1613641463622" />
-    <state width="1398" height="157" key="GridCell.Tab.0.bottom" timestamp="1613641133652">
+    <state width="1398" height="157" key="GridCell.Tab.0.bottom" timestamp="1613641501313">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state width="1398" height="157" key="GridCell.Tab.0.bottom/0.25.1440.816@0.25.1440.816" timestamp="1613641133652" />
-    <state width="1398" height="157" key="GridCell.Tab.0.center" timestamp="1613641133651">
+    <state width="1398" height="157" key="GridCell.Tab.0.bottom/0.25.1440.816@0.25.1440.816" timestamp="1613641501313" />
+    <state width="1398" height="157" key="GridCell.Tab.0.center" timestamp="1613641501312">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state width="1398" height="157" key="GridCell.Tab.0.center/0.25.1440.816@0.25.1440.816" timestamp="1613641133651" />
-    <state width="1398" height="157" key="GridCell.Tab.0.left" timestamp="1613641133650">
+    <state width="1398" height="157" key="GridCell.Tab.0.center/0.25.1440.816@0.25.1440.816" timestamp="1613641501312" />
+    <state width="1398" height="157" key="GridCell.Tab.0.left" timestamp="1613641501312">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state width="1398" height="157" key="GridCell.Tab.0.left/0.25.1440.816@0.25.1440.816" timestamp="1613641133650" />
-    <state width="1398" height="157" key="GridCell.Tab.0.right" timestamp="1613641133651">
+    <state width="1398" height="157" key="GridCell.Tab.0.left/0.25.1440.816@0.25.1440.816" timestamp="1613641501312" />
+    <state width="1398" height="157" key="GridCell.Tab.0.right" timestamp="1613641501313">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state width="1398" height="157" key="GridCell.Tab.0.right/0.25.1440.816@0.25.1440.816" timestamp="1613641133651" />
+    <state width="1398" height="157" key="GridCell.Tab.0.right/0.25.1440.816@0.25.1440.816" timestamp="1613641501313" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SearchInSql$connect.coverage" NAME="connect Coverage Results" MODIFIED="1613641133639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
