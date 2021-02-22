@@ -5,8 +5,15 @@
 # File : update.py
 from Dao.connect import connect,close
 
-def UpdateFood(tables_name,Ingredient,id):
+def UpdateFood(id,Ingredient,tables_name='food'):
     db, cursor = connect()
-    cursor.execute("update * from %s set Ingredient = %s WHERE id = %d" % \
-                   (tables_name,  Ingredient, id))
-    close(db)
+    cursor.execute("update %s set FoodName = '%s' WHERE id = %s" % \
+                   (tables_name, Ingredient, id))
+
+    # cursor.execute("select * from %s WHERE id= %s" % \
+    #                (tables_name, id))
+    # data = cursor.fetchall()
+    # print(data)
+    # close(db)
+
+    print("数据库中id={}更新成功".format(id))

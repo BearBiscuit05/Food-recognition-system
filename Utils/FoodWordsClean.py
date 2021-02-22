@@ -8,7 +8,7 @@ import numpy as np
 def CleanIngredient(FoodList):
     FoodList = list(FoodList)
     Ingredient = []
-    DeleteWord = np.load('../WordList/DeleteWord.npy')
+    DeleteWord = np.load('WordList/DeleteWord.npy')
     str = ''
     for i in range(len(FoodList)):
         if FoodList[i] not in DeleteWord:
