@@ -45,8 +45,11 @@ def ResearchFood(tables_name,FoodName,NUM=3,Ingredient = None):
     lists = []
 
     # 使用execute()方法执行SQL查询
-    cursor.execute("select * from %s WHERE FoodName LIKE '%%%s%%' and Ingredients LIKE '%%%s%%' limit %d" % \
-                   (tables_name, FoodName,Ingredient,NUM))
+    # cursor.execute("select * from %s WHERE FoodName LIKE '%%%s%%' and Ingredients LIKE '%%%s%%' limit %d" % \
+    #                (tables_name, FoodName,Ingredient,NUM))
+
+    cursor.execute("select * from %s " % (tables_name, FoodName,Ingredient,NUM))
+
     # 使用 fetchone() 方法获取单条数据.
     # data = cursor.fetchone()
     #选择所有数据
@@ -103,7 +106,7 @@ if __name__ == '__main__':
 
 import numpy as np
 numpy_array = np.array([1,2,3])
-np.save('log.npy',numpy_array )
+np.save('WordList/log.npy', numpy_array)
 
 import numpy as np
-numpy_array = np.load('log.npy')
+numpy_array = np.load('WordList/log.npy')

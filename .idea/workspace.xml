@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c3a7bc3-36df-4691-9ece-b670122fdbad" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageRank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getIngredinetList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifood_food.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dao/update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/FoodWordsClean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordList/DeleteWord.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordList/IFood_Food.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordList/log.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordTest/DeleteWord.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordTest/PageRank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordTest/Test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordTest/WordDeleteLsit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageRank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordTest/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getIngredinetList.py" beforeDir="false" afterPath="$PROJECT_DIR$/getIngredinetList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ifood_food.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/Test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +61,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.query">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WordList" />
+      <recent name="$PROJECT_DIR$/Utils" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/WordTest" />
+      <recent name="$PROJECT_DIR$/Dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Test">
     <configuration name="PageRank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SearchInSql" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,7 +84,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PageRank.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordTest/PageRank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SearchInSql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Service/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,12 +123,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordTest/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="connect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SearchInSql" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +150,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordTest/Test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="query" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="WordDeleteLsit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SearchInSql" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,12 +167,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/query.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordTest/WordDeleteLsit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,10 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.query" />
         <item itemvalue="Python.Test" />
-        <item itemvalue="Python.connect" />
+        <item itemvalue="Python.WordDeleteLsit" />
+        <item itemvalue="Python.Test2" />
         <item itemvalue="Python.PageRank" />
+        <item itemvalue="Python.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +217,7 @@
       <workItem from="1613638608176" duration="1137000" />
       <workItem from="1613805640029" duration="497000" />
       <workItem from="1613806152143" duration="1171000" />
-      <workItem from="1613987715556" duration="2066000" />
+      <workItem from="1613987715556" duration="5347000" />
     </task>
     <task id="LOCAL-00001" summary="增加未搜索后的返回信息">
       <created>1613641463872</created>
@@ -199,39 +242,46 @@
       <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state x="555" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.816@0.25.1440.816" timestamp="1613989319165" />
+    <state x="458" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613995890083">
+      <screen x="0" y="25" width="1440" height="816" />
+    </state>
+    <state x="458" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.816@0.25.1440.816" timestamp="1613995890083" />
     <state x="324" y="31" key="CommitChangelistDialog2" timestamp="1613641463622">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state x="324" y="31" key="CommitChangelistDialog2/0.25.1440.816@0.25.1440.816" timestamp="1613641463622" />
-    <state width="1398" height="227" key="GridCell.Tab.0.bottom" timestamp="1613994042675">
+    <state width="699" height="227" key="GridCell.Tab.0.bottom" timestamp="1613997494660">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state width="1398" height="227" key="GridCell.Tab.0.bottom/0.25.1440.816@0.25.1440.816" timestamp="1613994042675" />
-    <state width="1398" height="227" key="GridCell.Tab.0.center" timestamp="1613994042675">
+    <state width="699" height="227" key="GridCell.Tab.0.bottom/0.25.1440.816@0.25.1440.816" timestamp="1613997494660" />
+    <state width="699" height="227" key="GridCell.Tab.0.center" timestamp="1613997494658">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state width="1398" height="227" key="GridCell.Tab.0.center/0.25.1440.816@0.25.1440.816" timestamp="1613994042675" />
-    <state width="1398" height="227" key="GridCell.Tab.0.left" timestamp="1613994042674">
+    <state width="699" height="227" key="GridCell.Tab.0.center/0.25.1440.816@0.25.1440.816" timestamp="1613997494658" />
+    <state width="699" height="227" key="GridCell.Tab.0.left" timestamp="1613997494657">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state width="1398" height="227" key="GridCell.Tab.0.left/0.25.1440.816@0.25.1440.816" timestamp="1613994042674" />
-    <state width="1398" height="227" key="GridCell.Tab.0.right" timestamp="1613994042675">
+    <state width="699" height="227" key="GridCell.Tab.0.left/0.25.1440.816@0.25.1440.816" timestamp="1613997494657" />
+    <state width="699" height="227" key="GridCell.Tab.0.right" timestamp="1613997494659">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state width="1398" height="227" key="GridCell.Tab.0.right/0.25.1440.816@0.25.1440.816" timestamp="1613994042675" />
+    <state width="699" height="227" key="GridCell.Tab.0.right/0.25.1440.816@0.25.1440.816" timestamp="1613997494659" />
     <state x="229" y="69" key="SettingsEditor" timestamp="1613987971648">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state x="229" y="69" key="SettingsEditor/0.25.1440.816@0.25.1440.816" timestamp="1613987971648" />
-    <state x="506" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613993609683">
+    <state x="506" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613997481885">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
-    <state x="506" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.816@0.25.1440.816" timestamp="1613993609683" />
+    <state x="506" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.816@0.25.1440.816" timestamp="1613997481885" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SearchInSql$query.coverage" NAME="query Coverage Results" MODIFIED="1613994042664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SearchInSql$Test.coverage" NAME="Test Coverage Results" MODIFIED="1613989297746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SearchInSql$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1613997369057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SearchInSql$Test.coverage" NAME="Test Coverage Results" MODIFIED="1613997474052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordTest" />
     <SUITE FILE_PATH="coverage/SearchInSql$connect.coverage" NAME="connect Coverage Results" MODIFIED="1613989259905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SearchInSql$PageRank.coverage" NAME="PageRank Coverage Results" MODIFIED="1613810675132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SearchInSql$PageRank.coverage" NAME="PageRank Coverage Results" MODIFIED="1613997112475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SearchInSql$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1613994676309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Service" />
+    <SUITE FILE_PATH="coverage/SearchInSql$WordDeleteLsit.coverage" NAME="WordDeleteLsit Coverage Results" MODIFIED="1613997444721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordTest" />
   </component>
 </project>

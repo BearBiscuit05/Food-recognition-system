@@ -3,7 +3,7 @@
 # Time:2021/2/22 下午7:36
 # Author : nishizzma
 # File : query.py
-from connect import connect,close
+from Dao.connect import connect,close
 
 
 def ResearchFood(tables_name, FoodName, NUM=3, Ingredient=None):
@@ -53,28 +53,7 @@ def CleanData(str):
     str = str[1:]
     return str
 
-def CleanIngredient(list):
-    Ingredient = []
-    str = ''
-    for i in range(len(list)):
-        if list[i] not in  [',',' ','0','1','2','3','4','5','6','7','8','9', '','\n','-','一','两','半','ml','适量']:
-           str = str + list[i]
-        else:
-            if len(str) > 1:
-                Ingredient.append(str)
-            str = ''
-    return Ingredient
 
 
 
-if __name__ == '__main__':
-    tables_name = 'food'
-    FoodName = '酸菜'
-    Ingredient = '辣椒'
-    NUM = 4
-    Foodlists = ResearchFood(tables_name,FoodName,NUM,Ingredient)
-    if len(Foodlists) == 0:
-        print("未在数据库中搜索到结果！")
-        exit()
-    for foodlist in Foodlists:
-        print(CleanIngredient(list(foodlist[3])))
+
