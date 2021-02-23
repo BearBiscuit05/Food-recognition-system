@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c3a7bc3-36df-4691-9ece-b670122fdbad" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/WordList/Ingredients.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Service/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/FoodWordsClean.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/FoodWordsClean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordTest/PageRank.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordTest/PageRank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +201,7 @@
       <workItem from="1613987715556" duration="5347000" />
       <workItem from="1613997366023" duration="301000" />
       <workItem from="1613997691975" duration="1656000" />
+      <workItem from="1614061212816" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="增加未搜索后的返回信息">
       <created>1613641463872</created>
