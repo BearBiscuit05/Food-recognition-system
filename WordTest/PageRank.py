@@ -14,8 +14,6 @@ df_recipes = pd.read_csv(filepath, encoding="utf_8")
 Ingredients = []
 for i in range(len(df_recipes['Ingredients'])):
     Ingredients = Ingredients + CleanIngredient(df_recipes['Ingredients'][i])
-    if i == 10:
-        break
 
 set(Ingredients)
 numpy_array = np.array(Ingredients)

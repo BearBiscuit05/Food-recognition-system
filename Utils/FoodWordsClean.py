@@ -14,7 +14,7 @@ def CleanIngredient(FoodList):
         if FoodList[i] not in DeleteWord:
            str = str + FoodList[i]
         else:
-            if len(str) > 1:
+            if len(str) > 1 and len(str) < 6:
                 Ingredient.append(str)
             str = ''
     return Ingredient
