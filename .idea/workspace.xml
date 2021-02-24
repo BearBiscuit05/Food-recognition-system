@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c3a7bc3-36df-4691-9ece-b670122fdbad" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3c3a7bc3-36df-4691-9ece-b670122fdbad" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,6 +205,7 @@
       <workItem from="1614078865670" duration="3197000" />
       <workItem from="1614133646342" duration="1150000" />
       <workItem from="1614135568698" duration="2483000" />
+      <workItem from="1614139575628" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="增加未搜索后的返回信息">
       <created>1613641463872</created>
