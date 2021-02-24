@@ -8,10 +8,14 @@
 """
 
 import requests
+import configparser
 
 # client_id 为官网获取的AK， client_secret 为官网获取的SK
-AK = '3TXW7FsmKrgTgEuGac0mn0GL'
-SK = 'gSrNb8TS6O3mTLBbvoy1pGimGG9ttGNu'
+CONFIG_PATH = '../config.ini'
+config = configparser.ConfigParser()
+config.read(CONFIG_PATH)
+AK = config["API"]["AK"]
+SK = config["API"]["SK"]
 host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id='+AK+'&client_secret='+SK
 response = requests.get(host)
 if response:

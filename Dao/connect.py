@@ -9,19 +9,29 @@
 '''
 
 import pymysql
-import re
+import configparser
 
 def connect():
     '''
     :return:    数据库(db)，游标对象(cursor)
     '''
 
+    CONFIG_PATH = '../config.ini'
+    config = configparser.ConfigParser()
+    config.read(CONFIG_PATH)
+
+    host = config["DATABASE"]["HOST"]
+    port = config["DATABASE"]["PORT"]
+    user = config["DATABASE"]["USER"]
+    passwd = config["DATABASE"]["PASSWD"]
+    database = config["DATABASE"]["DB"]
+
     db = pymysql.connect(
-             host='rm-bp14l6dz98z1rzk95mo.mysql.rds.aliyuncs.com',
-             port=3306,
-             user='bearbiscuit_root',
-             passwd='Xiangyongan05',
-             db ='ifood',
+             host = host,
+             port = int(port),
+             user = user,
+             passwd = passwd,
+             db = database,
              # charset='utf8'
              )
 

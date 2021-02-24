@@ -11,6 +11,7 @@
 '''
 import requests
 import base64
+import configparser
 
 
 
@@ -20,6 +21,9 @@ def FoodNameSearch(PicturePath):
     :param PicturePath :  等待识别图片所在位置
     :retrun :       图片识别结果的前5项名称
     '''
+    CONFIG_PATH = '../config.ini'
+    config = configparser.ConfigParser()
+    config.read(CONFIG_PATH)
 
     NameList = []
     request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v2/dish"
@@ -31,7 +35,7 @@ def FoodNameSearch(PicturePath):
     params = {"image":img,"top_num":5}
 
     #来源于RequestToken获得结果
-    access_token = '24.3c5aaba95806d021a107c9176f8f6b0d.2592000.1616659137.282335-23693553'
+    access_token = config["API"]["Token"]
     request_url = request_url + "?access_token=" + access_token
     headers = {'content-type': 'application/x-www-form-urlencoded'}
     response = requests.post(request_url, data=params, headers=headers)
