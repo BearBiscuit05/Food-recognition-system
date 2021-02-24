@@ -12,6 +12,10 @@ import pymysql
 import re
 
 def connect():
+    '''
+    :return:    数据库(db)，游标对象(cursor)
+    '''
+
     db = pymysql.connect(
              host='rm-bp14l6dz98z1rzk95mo.mysql.rds.aliyuncs.com',
              port=3306,
@@ -26,6 +30,9 @@ def connect():
     return db,cursor
 
 def close(db):
+    '''
+    :param db:  待关闭数据库
+    '''
     db.close()
 
 

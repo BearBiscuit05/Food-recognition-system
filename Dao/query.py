@@ -5,18 +5,24 @@
 # File : query.py
 '''
 对数据库内容进行查询
+美食数据库表单内容:
+id:             唯一标签
+FoodName:       食物名称
+Url:            菜品来源
+Ingredients:    材料需求
+Mainpicture:    步骤对应图片
+Steps:          制作步骤
+StepPicture:    制作步骤对应图片
 '''
 
 from Dao.connect import connect,close
 def ResearchFood(tables_name='food',id = None,FoodName = None, NUM=3, Ingredients=None):
     """
-    id:             唯一标签
-    FoodName:       食物名称
-    Url:            菜品来源
-    Ingredients:    材料需求
-    Mainpicture:    步骤对应图片
-    Steps:          制作步骤
-    StepPicture:    制作步骤对应图片
+    :param id:             唯一标签
+    :param FoodName:       食物名称
+    :param Ingredients:    材料需求
+    :param num:            返回结果数目
+    :return:               数据库查询结果(list)
     """
 
     lists = []
@@ -38,7 +44,7 @@ def ResearchFood(tables_name='food',id = None,FoodName = None, NUM=3, Ingredient
                        (tables_name,Ingredients, NUM))
     else:
         print("所提供参数不足以查询数据库！")
-        return -1;
+        return -1
 
 
     # 使用 fetchone() 方法获取单条数据.
@@ -62,6 +68,10 @@ def ResearchFood(tables_name='food',id = None,FoodName = None, NUM=3, Ingredient
 
 #清洗数据标签
 def CleanData(str):
+    '''
+    :param str:     待清洗字符串
+    :return:        清洗完成字符串
+    '''
     str = str.replace('||||||','\n')
     str = str.replace('|||||', '\n')
     str = str.replace('||||', ' ')

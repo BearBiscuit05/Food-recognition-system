@@ -4,10 +4,9 @@
 # Author : nishizzma
 # File : RequestToken.py
 """
-获取百度API接口
+获取百度API接口的Token令牌
 """
 
-# encoding:utf-8
 import requests
 
 # client_id 为官网获取的AK， client_secret 为官网获取的SK

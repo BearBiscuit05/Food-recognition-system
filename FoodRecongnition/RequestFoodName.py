@@ -5,20 +5,24 @@
 # File : RequestFoodName.py
 
 # encoding:utf-8
-
+'''
+菜品识别
+调用百度API接口
+'''
 import requests
 import base64
 
-'''
-菜品识别
-'''
+
 
 def FoodNameSearch(PicturePath):
-    NameList = []
+    '''
+    美食识别函数
+    :param PicturePath :  等待识别图片所在位置
+    :retrun :       图片识别结果的前5项名称
+    '''
 
+    NameList = []
     request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v2/dish"
-    # 二进制方式打开图片文件
-    #PicturePath = './FoodPicture/1.jpg'
 
     f = open(PicturePath, 'rb')
     img = base64.b64encode(f.read())
