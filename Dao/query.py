@@ -82,6 +82,25 @@ def CleanData(str):
     return str
 
 
+def ResearchUser(UID):
+    '''
+    :param UID:
+    :return [UID,Name,Passwd,Region,Flavor,History]
+    '''
+    db, cursor = connect()
+    tables_name = 'User'
+    cursor.execute("select * from %s WHERE id = '%s'" % (tables_name, UID))
+    data = cursor.fetchall()
+    for d in data:
+        UID = d[0]
+        Name = d[1]
+        Passwd = d[2]
+        Region = d[3]
+        Flavor = d[4]
+        History = d[5]
+        list = [UID, Name, Passwd, Region, Flavor, History]
+    return list
+
 
 
 

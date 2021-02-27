@@ -14,8 +14,8 @@ import configparser
 CONFIG_PATH = '../config.ini'
 config = configparser.ConfigParser()
 config.read(CONFIG_PATH)
-AK = config["API"]["AK"]
-SK = config["API"]["SK"]
+AK = config["Word_API"]["AK"]
+SK = config["Word_API"]["SK"]
 host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id='+AK+'&client_secret='+SK
 response = requests.get(host)
 if response:

@@ -29,4 +29,25 @@ def UpdateFood(id,FoodName =None,Url = None,Ingredients=None,\
 
     db.commit()
     close(db)
-    print("数据库中id={}更新成功".format(id))
+    print("食物数据库中id={}更新成功".format(id))
+
+def UpdateUserInfmation(UID,Name=None,Passwd=None,Region=None,Flavor=None,History=None):
+    db, cursor = connect()
+    tables_name = 'User'
+    cursor.execute("select * from %s WHERE UID = %s" % (tables_name, UID))
+    datas = cursor.fetchall()
+    for data in datas:
+        UID = data[0]
+        new_Name = data[1] if Name == None else Name
+        new_Passwd = data[2] if Passwd == None else  Passwd
+        new_Region = data[3] if Region == None else  Region
+        new_Flavor = data[4] if Flavor == None else Flavor
+        new_History = data[5] if History == None else  History
+
+    cursor.execute(
+        "update %s set Name = '%s',Passwd = '%s',Region='%s',Flavor='%s', History='%s' WHERE UID = %s" % \
+        (tables_name, new_Name, new_Passwd, new_Region, new_Flavor, new_History,  UID))
+
+    db.commit()
+    close(db)
+    print("用户数据库中UID={}更新成功".format(id))
