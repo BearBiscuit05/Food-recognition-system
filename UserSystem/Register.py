@@ -5,9 +5,15 @@
 # File : Register.py
 
 from Dao.Add import addUserInformation
+from Utils.md5Use import get_md5
 
 def addUser(Name, Passwd, Region, Flavor, History):
-    addUserInformation(Name, Passwd, Region, Flavor, History)
+    Passwd = get_md5(Passwd)
+    UID = addUserInformation(Name, Passwd, Region, Flavor, History)
+    print("恭喜创建用户成功，唯一UID:{}".format(UID))
+    return UID
+
+
 
 
 if __name__ == '__main__':
@@ -16,4 +22,4 @@ if __name__ == '__main__':
     Region = 'huanan'
     Flavor = 'suan'
     History = 'meiyou'
-    addUser(Name, Passwd, Region, Flavor, History)
+    UID = addUser(Name, Passwd, Region, Flavor, History)

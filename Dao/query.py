@@ -88,6 +88,7 @@ def ResearchUser(UID):
     :param UID: 用户的唯一指定参数
     :return [UID,Name,Passwd,Region,Flavor,History]
     '''
+    UserList = []
     db, cursor = connect()
     tables_name = 'User'
     cursor.execute("select * from %s WHERE id = '%s'" % (tables_name, UID))
@@ -99,8 +100,8 @@ def ResearchUser(UID):
         Region = d[3]
         Flavor = d[4]
         History = d[5]
-        list = [UID, Name, Passwd, Region, Flavor, History]
-    return list
+        UserList = [UID, Name, Passwd, Region, Flavor, History]
+    return UserList
 
 
 
