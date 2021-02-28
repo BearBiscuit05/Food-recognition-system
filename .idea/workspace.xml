@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c3a7bc3-36df-4691-9ece-b670122fdbad" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/UserSystem/ChangePd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/md5Use.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/Add.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/Add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/query.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSystem/LogIn.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserSystem/LogIn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSystem/Register.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserSystem/Register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
-    </list>
+    <list default="true" id="3c3a7bc3-36df-4691-9ece-b670122fdbad" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,6 +211,7 @@
       <workItem from="1614478119128" duration="3718000" />
       <workItem from="1614482981492" duration="69000" />
       <workItem from="1614493325930" duration="2312000" />
+      <workItem from="1614495993787" duration="127000" />
     </task>
     <task id="LOCAL-00001" summary="增加未搜索后的返回信息">
       <created>1613641463872</created>
