@@ -16,6 +16,7 @@ StepPicture:    制作步骤对应图片
 '''
 
 from Dao.connect import connect,close
+
 def ResearchFood(tables_name='food',id = None,FoodName = None, NUM=3, Ingredients=None):
     """
     :param id:             唯一标签
@@ -84,7 +85,7 @@ def CleanData(str):
 
 def ResearchUser(UID):
     '''
-    :param UID:
+    :param UID: 用户的唯一指定参数
     :return [UID,Name,Passwd,Region,Flavor,History]
     '''
     db, cursor = connect()
